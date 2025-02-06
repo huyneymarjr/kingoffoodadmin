@@ -1,0 +1,31 @@
+.bg-login {
+  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(249, 234, 187) 100%);
+}
+
+.main-pagination {
+  .ant-pagination-item-active {
+    background-color: #7ad1f7;
+    border-color: #217ca3;
+    font-weight: 500;
+    &:hover {
+      a {
+        color: #000000;
+      }
+    }
+    a {
+      color: #000000;
+      font-weight: 500;
+    }
+  }
+  .ant-pagination-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #217ca3 !important;
+    border-radius: 10px !important;
+  }
+  .ant-pagination-item {
+    border: 1px solid #217ca3 !important;
+    border-radius: 10px !important;
+  }
+}

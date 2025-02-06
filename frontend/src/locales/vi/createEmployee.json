@@ -1,0 +1,11 @@
+{
+  "createEmployee": {
+    "title": "Tạo nhân viên",
+    "name": "Tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "create": "Tạo",
+    "cancel": "Hủy"
+  }
+}

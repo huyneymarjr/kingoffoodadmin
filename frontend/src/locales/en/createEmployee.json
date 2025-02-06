@@ -1,0 +1,11 @@
+{
+  "createEmployee": {
+    "title": "Create Employee",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "create": "create",
+    "cancel": "cancel"
+  }
+}

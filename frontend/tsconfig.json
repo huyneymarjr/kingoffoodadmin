@@ -1,0 +1,71 @@
+{
+  // "compilerOptions": {
+  //   "noUnusedLocals": false,
+  //   "noUnusedParameters": false
+  // },
+  // "files": [],
+  // "references": [
+  //   {
+  //     "path": "./tsconfig.app.json"
+  //   },
+  //   {
+  //     "path": "./tsconfig.node.json"
+  //   }
+  // ]
+  // "compilerOptions": {
+  //   "target": "ES2020",
+  //   "useDefineForClassFields": true,
+  //   "lib": ["ES2020", "DOM", "DOM.Iterable"],
+  //   "module": "ESNext",
+  //   "skipLibCheck": true,
+  //   "moduleResolution": "bundler",
+  //   "allowImportingTsExtensions": true,
+  //   "resolveJsonModule": true,
+  //   "isolatedModules": true,
+  //   "noEmit": true,
+  //   "jsx": "react-jsx",
+  //   "esModuleInterop": true,
+  //   "strict": true,
+  //   "noUnusedLocals": true,
+  //   "noUnusedParameters": true,
+  //   "noFallthroughCasesInSwitch": true,
+  //   "baseUrl": ".",
+
+  //   "paths": {
+  //     "@/*": ["src/*"]
+  //   },
+  //   //
+
+  //   "allowSyntheticDefaultImports": true,
+  //   //
+  //   "moduleDetection": "force",
+
+  //   "types": ["jest"]
+  // },
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src", "./jest.setup.ts", "src/__test__/**/*.ts", "src/__test__/**/*.tsx"]
+}
